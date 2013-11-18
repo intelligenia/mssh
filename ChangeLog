@@ -1,0 +1,77 @@
+2010-01-15  Bradley Smith  <brad@brad-smith.co.uk>
+
+	Bump to version 1.2
+
+	Add directional focus option, and focus next window on session close.
+
+	Redo accel group when modifier changes.
+
+	Add directional focus.
+
+2010-01-14  Bradley Smith  <brad@brad-smith.co.uk>
+
+	Make sure focus is preserved when a session closes, restore back to global entry if focused window closed.
+
+	Add call to vte_terminal_set_word_chars.
+
+	Get rid of horrible tabs in files.
+
+	Add columns override option.
+
+2009-09-05  Bradley Smith  <brad@brad-smith.co.uk>
+
+	Bump version to 1.1.
+
+2009-09-03  Bradley Smith  <brad@brad-smith.co.uk>
+
+	Implement .mssh_clusters config file.
+
+2009-09-02  Bradley Smith  <brad@brad-smith.co.uk>
+
+	Bump version to 1.0.
+
+	Hook up the rest of the preferences dialog.
+
+	Hook up columns spin button.
+
+2009-08-29  Bradley Smith  <brad@brad-smith.co.uk>
+
+	Add beginnings of columns preference.
+
+	Hook up colour preferences.
+
+2009-08-28  Bradley Smith  <brad@brad-smith.co.uk>
+
+	Reduce spacing between terminals.
+
+	Add initial gconf stuff, and hook up font preference.
+
+	Catch pastes into GtkEntry.
+
+2009-08-27  Bradley Smith  <brad@brad-smith.co.uk>
+
+	Remove menu item on session close.
+
+	Fixes to terminal class and add "add session" menuitem.
+
+	Add preferences dialog.
+
+	Split out terminals into seperate clase and make layout more dynamic.
+
+2009-08-25  Bradley Smith  <brad@brad-smith.co.uk>
+
+	Bump version to 0.2.
+
+	Fix segfault with > 32 servers.
+
+2009-08-20  Bradley Smith  <brad@brad-smith.co.uk>
+
+	Add option to send hostname.
+
+2009-08-02  Bradley Smith  <brad@brad-smith.co.uk>
+
+	Fix indentation.
+
+	Fix segfault with odd number of servers. Span last server in this case.
+
+	Initial commit.

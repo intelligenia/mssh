@@ -1,0 +1,103 @@
+<gconfschemafile>
+    <schemalist>
+        <schema>
+            <key>/schemas/apps/mssh/font</key>
+            <applyto>/apps/mssh/font</applyto>
+            <owner>mssh</owner>
+            <type>string</type>
+            <default>Monospace 10</default>
+            <locale name="C">
+                <short>Terminal font</short>
+                <long>Font to use for all MSSH terminals</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/mssh/fg_colour</key>
+            <applyto>/apps/mssh/fg_colour</applyto>
+            <owner>mssh</owner>
+            <type>string</type>
+            <default>#ffffffffffff</default>
+            <locale name="C">
+                <short>Terminal foreground colour</short>
+                <long>Foreground colour to use for all MSSH terminals</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/mssh/bg_colour</key>
+            <applyto>/apps/mssh/bg_colour</applyto>
+            <owner>mssh</owner>
+            <type>string</type>
+            <default>#000000000000</default>
+            <locale name="C">
+                <short>Terminal background colour</short>
+                <long>Background colour to use for all MSSH terminals</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/mssh/coloums</key>
+            <applyto>/apps/mssh/columns</applyto>
+            <owner>mssh</owner>
+            <type>int</type>
+            <default>2</default>
+            <locale name="C">
+                <short>Terminal columns</short>
+                <long>Number of columns of tiled terminals</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/mssh/timeout</key>
+            <applyto>/apps/mssh/timeout</applyto>
+            <owner>mssh</owner>
+            <type>int</type>
+            <default>2</default>
+            <locale name="C">
+                <short>Terminal close timeout</short>
+                <long>Timeout after which to close ended sessions</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/mssh/close_ended</key>
+            <applyto>/apps/mssh/close_ended</applyto>
+            <owner>mssh</owner>
+            <type>bool</type>
+            <default>true</default>
+            <locale name="C">
+                <short>Close ended sessions</short>
+                <long>Close ended ssh sessions</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/mssh/quit_all_ended</key>
+            <applyto>/apps/mssh/quit_all_ended</applyto>
+            <owner>mssh</owner>
+            <type>bool</type>
+            <default>false</default>
+            <locale name="C">
+                <short>Quit after all sessions ended</short>
+                <long>Quit MSSH when all ssh sessions have ended</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/mssh/dir_focus</key>
+            <applyto>/apps/mssh/dir_focus</applyto>
+            <owner>mssh</owner>
+            <type>bool</type>
+            <default>true</default>
+            <locale name="C">
+                <short>Use directional focus</short>
+                <long>Uses directional focus rather than linear focus</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/mssh/modifier</key>
+            <applyto>/apps/mssh/modifier</applyto>
+            <owner>mssh</owner>
+            <type>int</type>
+            <default>8</default>
+            <locale name="C">
+                <short>Shortcut modifier</short>
+                <long>Modifier used in focus shortcuts</long>
+            </locale>
+        </schema>
+    </schemalist>
+</gconfschemafile>
