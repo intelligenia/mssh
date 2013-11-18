@@ -2,6 +2,8 @@ mssh
 ====
 This is a fork from original MultiSSH (Bradley Smith's project) 1.2 with Debian Wheezy patches.
 
+MultiSSH is a GTK+ based SSH client designed to connect to multiple servers and issue to same commands to each server, making administering multiple servers less of a chore. There is also functionality to only issue commands to individual servers, and to select a portion of the servers to send commands to.
+
 Extra features
 --------------
 
